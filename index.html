@@ -18,18 +18,46 @@
         <picture class="img-flex">
           <source media="(min-width:60em)" srcset="images/blue-bolt-975.jpg">
           <source media="(min-width:38em)" srcset="images/blue-bolt-480.jpg">
-          <img src="images/0.jpg" alt="">
+          <img class="img-flex" src="images/0.jpg" srcset="images/0.jpg 480w" sizes="(min-width: 38em) 50vw, 100vw" alt="">
         </picture>
         <header class="gutter-1-2">
           <h1 class="pad-t-1-2 push-1-8">Blue Bolt, Series 6D, № 4</h1>
           <p class="pad-b">Blue Bolt, the human lightning streak, in weird & fantastic stories of the unknown.</p>
         </header>
         <footer>
-          <menu>
+          <menu class="absolute">
+            <li>
+              <button class="btn action-tools-top action-btn">
+                <i class="icon i-1">
+                  <svg><use xlink:href="images/icons.svg#fullscreen" /></svg>
+                </i>
+              </button>
+            </li>
             <li>
               <button class="btn">
                 <i class="icon i-1">
-                  <svg><use xlink:href="images/icons.svg#fullscreen" /></svg>
+                  <svg><use xlink:href="images/icons.svg#download" /></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="btn action-tools-bottom">
+                <i class="icon i-1">
+                  <svg><use xlink:href="images/icons.svg#heart" /></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="btn">
+                <i class="icon i-1">
+                  <svg><use xlink:href="images/icons.svg#comment" /></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="btn">
+                <i class="icon i-1">
+                  <svg><use xlink:href="images/icons.svg#share" /></svg>
                 </i>
               </button>
             </li>
